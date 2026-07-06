@@ -138,6 +138,24 @@ Fixtures for this live in [`grydlock-testkit`](../grydlock-testkit).
 - **For the ecosystem** — an open, auditable risk oracle gives any wallet or protocol the same
   pre-signing intelligence, rather than each one building a closed, unverifiable equivalent
 
+## Contributing
+
+Gryd Lock is early-stage and research-only in this repo — there's no code here to submit a PR
+against yet. We're looking for input from:
+
+- Stellar / Soroban developers who can pressure-test the system design against real per-wallet
+  signing APIs (Freighter and beyond)
+- Security researchers with experience building or breaking pre-signing scanners (Blowfish, Pocket
+  Universe, Fire) on other chains
+- UX researchers who can help validate the tiered-warning comprehension study
+
+Quick checklist for contributions:
+
+- Open an issue or discussion before proposing a change to the threat model, system design, or
+  warning tiers
+- Note which section of this README a proposed change affects
+- New references should follow the existing citation style
+
 ## Related Repositories
 
 | Repo                                  | Role                                                              |
